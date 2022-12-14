@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formulario">
+        <form action="" method="get">
+            <div class="title">
+                <h1>Formulario de contato</h1>
+                <p>Escreva-nos e entraremos em contato em breve</p>
+            </div>
+            <div>
+                <label for="iname">Nome *</label> <br>
+                <input type="text" name="name" id="iname" placeholder="Escreva seu nome" required>
+            </div>
+            <div>
+                <label for="iemail">Email *</label> <br>
+                <input type="email" name="email" id="iemail" placeholder="Escreva seu Email" required>
+            </div>
+            <div>
+                <label for="itel">Teléfone</label> <br>
+                <input type="tel" name="tel" id="itel" placeholder="Escreva seu teléfone" required>
+            </div>
+            <div>
+                <label for="iurl">Site Web</label> <br>
+                <input type="url" name="url" id="iurl" placeholder="Escreva a URL do seu site" required>
+            </div>
+            <div>
+                <label for="icaso">Assunto *</label> <br>
+                <input type="text" name="caso" id="icaso" placeholder="Escreva um assunto" required>
+            </div>
+            <div>
+                <label for="imsg">Mensagem *</label> <br>
+                <textarea name="comentário" id="imsg" cols="30" rows="10" placeholder="Deixe aqui seu comentário..."></textarea>
+            </div>
+            <div class="enviar">
+                <input type="submit" value="ENVIAR">
+                <p>*Os campos são obrigatórios.</p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
