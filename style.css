@@ -15,7 +15,7 @@ body {
 .formulario {
     margin-top: 80px;
     margin-bottom: 80px;
-    width: 486px;
+    width: 100%;
     border-radius: 10px;
     background-color: white;
 }
@@ -60,3 +60,8 @@ form {
     font-size: 14px;
 }
 
+@media screen and (max-width: 600px) {
+    .formulario {
+        width: 100%
+    }
+}
