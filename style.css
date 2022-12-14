@@ -60,11 +60,4 @@ form {
     font-size: 14px;
 }
 
-@media screen and (max-width: 600px) {
-   .formulario {
-    width: 100vw;
-   }
-   .formulario input, .formulario textarea {
-    width: 350px;
-   }
-}
+
